@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Découvrez la Galerie Lisière à Nice, l’exposition Regards contemporains, Victoria Sauga et sa collection d’art contemporain.">
+  <meta name="theme-color" content="#18221d">
+  <title>Galerie Lisière — L’art sans frontières</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header" id="haut">
+    <a class="brand" href="#haut" aria-label="Galerie Lisière, retour à l’accueil">
+      <img src="images/logo.png" alt="" width="56" height="56">
+      <span>GALERIE<br>LISIÈRE</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navigation"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="navigation" aria-label="Navigation principale">
+      <a href="#exposition">Expositions</a>
+      <a href="#collection">Collection</a>
+      <a href="#galerie">La galerie</a>
+      <a href="#visiter">Visiter</a>
+      <a class="nav-ticket" href="#visiter">Billetterie ↗</a>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <!-- 01 : HERO — conservé -->
+    <section class="hero" aria-labelledby="titre-principal">
+      <div class="hero-inner wrap">
+        <p class="hero-tagline">L’art sans frontières.</p>
+        <p class="eyebrow">EXPOSITION TEMPORAIRE · 12.04 — 30.09.2025</p>
+        <h1 id="titre-principal">Regards<br class="desktop-break"> contemporains</h1>
+        <p class="hero-copy">Une traversée sensible à travers les œuvres qui réinventent notre rapport au paysage, à la matière et à la mémoire.</p>
+        <a class="btn" href="#exposition">Découvrir l’exposition <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- 02 : EXPOSITION — Reliefs lunaires et légende de la maquette -->
+    <section class="section exhibition" id="exposition" aria-labelledby="titre-exposition">
+      <div class="wrap exhibition-layout">
+        <div class="exhibition-heading">
+          <p class="eyebrow">EN CE MOMENT</p>
+          <h2 id="titre-exposition">L’art comme point<br>de rencontre.</h2>
+        </div>
+        <div class="exhibition-copy">
+          <p><em>Regards contemporains</em> rassemble des voix singulières autour d’un même désir : observer autrement le monde qui nous entoure.</p>
+          <p>Peinture, photographie et installations composent un parcours vivant où chaque œuvre ouvre un nouveau dialogue.</p>
+        </div>
+        <figure class="exhibition-art">
+          <img src="images/reliefs-lunaires.png" alt="Reliefs lunaires : paysage de montagnes dessiné à l’encre noire, surmonté d’un soleil" loading="lazy" width="690" height="1042">
+          <figcaption><span>Reliefs lunaires</span><small>Victoria Sauga · 2023</small></figcaption>
+        </figure>
+        <a class="btn exhibition-action" href="#visiter">Préparer ma visite <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- 03 : ARTISTE — conservé -->
+    <section class="section artist" id="artiste" aria-labelledby="titre-artiste">
+      <div class="wrap artist-layout">
+        <img class="artist-photo" src="images/artiste.jpg" alt="Portrait de l’artiste Victoria Sauga" loading="lazy">
+        <img class="artist-extra-photo" src="images/img-0749.jpg" alt="Jeune femme aux lunettes, en chemise rose, photographiée sous les arbres" loading="lazy" width="1000" height="1500">
+        <div class="section-content">
+          <p class="eyebrow">L’ARTISTE INVITÉE</p>
+          <h2 id="titre-artiste">Une vision singulière.</h2>
+          <p class="artist-intro">Au cœur de l’exposition <em>Regards contemporains</em>, Victoria Sauga développe un langage pictural sensible, nourri par les paysages, les souvenirs et les émotions du quotidien.</p>
+          <p class="artist-detail">Sa pratique spontanée explore la couleur et la matière avec une liberté remarquable. Chaque toile devient un espace intime, entre réalité observée et monde intérieur.</p>
+          <a class="btn" href="#collection">Découvrir ses œuvres <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 : COLLECTION — trois œuvres desktop, quatre mobile comme sur Figma -->
+    <section class="section collection" id="collection" aria-labelledby="titre-collection">
+      <div class="wrap">
+        <div class="collection-heading">
+          <div><p class="eyebrow">SÉLECTION DU MOMENT</p><h2 id="titre-collection">Collection vedette</h2></div>
+        </div>
+        <div class="art-grid">
+          <article class="art-card"><img src="images/oeuvre-1.jpg" alt="Conversations chromatiques, œuvre colorée de Victoria Sauga" loading="lazy"><h3>Conversations chromatiques</h3><p>Victoria Sauga · 2024</p></article>
+          <article class="art-card"><img src="images/oeuvre-2.jpg" alt="L’horizon intérieur, paysage aux couleurs vives avec une barque" loading="lazy"><h3>L’horizon intérieur</h3><p>Victoria Sauga · 2023</p></article>
+          <article class="art-card"><img src="images/oeuvre-3.jpg" alt="Silences, paysage verdoyant avec un arbre" loading="lazy"><h3>Silences</h3><p>Victoria Sauga · 2024</p></article>
+          <article class="art-card mobile-only-art"><img src="images/oeuvre-4.jpg" alt="Ballet marin, composition marine et poissons colorés" loading="lazy"><h3>Ballet marin</h3><p>Victoria Sauga · 2023</p></article>
+        </div>
+        <a class="text-link" href="#galerie">Voir toute la collection <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- 05 : À PROPOS — disposition et titre de Figma -->
+    <section class="section about" id="galerie" aria-labelledby="titre-galerie">
+      <div class="wrap about-layout">
+        <div class="about-heading"><p class="eyebrow">DEPUIS 1998 · NICE</p><h2 id="titre-galerie">Un lieu vivant,<br>ouvert sur son époque.</h2></div>
+        <p class="about-intro">Installée au cœur du Vieux-Nice, la Galerie Lisière défend une création libre et exigeante, en accompagnant artistes émergents et figures établies.</p>
+        <img class="about-image" src="images/galerie.png" alt="Grande salle lumineuse de galerie d’art aux murs blancs et aux visiteurs" loading="lazy">
+        <p class="about-detail">Plus qu’un espace d’exposition, nous imaginons un lieu de partage où se croisent les regards, les générations et les disciplines.</p>
+        <a class="btn about-action" href="#visiter">Découvrir l’histoire <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- 06 : VISITE — informations pratiques, sans photographie -->
+    <section class="section visit" id="visiter" aria-labelledby="titre-visite">
+      <div class="wrap visit-layout">
+        <div class="visit-heading"><p class="eyebrow">INFORMATIONS PRATIQUES</p><h2 id="titre-visite">Votre visite</h2></div>
+        <div class="visit-grid">
+          <div class="visit-item">
+            <h3>Adresse</h3>
+            <p>12 rue de la Préfecture<br>06300 Nice</p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=12+rue+de+la+Pr%C3%A9fecture+06300+Nice" target="_blank" rel="noopener noreferrer">Itinéraire ↗</a>
+          </div>
+          <div class="visit-item">
+            <h3>Horaires</h3>
+            <p>Du mardi au dimanche<br>10h — 19h</p>
+            <p class="visit-extra">Fermé le lundi</p>
+          </div>
+          <div class="visit-item">
+            <h3>Tarifs</h3>
+            <p>Plein tarif — 12 €<br>Tarif réduit — 8 €</p>
+            <p class="visit-extra">Gratuit — 18 ans</p>
+          </div>
+          <div class="visit-item">
+            <h3>Contact</h3>
+            <p><a href="tel:+33493620824">+33 4 93 62 08 24</a><br><a href="mailto:bonjour@galerielisiere.fr">bonjour@galerielisiere.fr</a></p>
+            <a href="mailto:bonjour@galerielisiere.fr">Nous écrire ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 07 : FOOTER — logo, newsletter et œuvre -->
+  <footer class="footer" id="contact">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">GALERIE<br>LISIÈRE</div>
+        <p class="footer-brand-caption">ART CONTEMPORAIN · NICE</p>
+        <img class="footer-mark" src="images/logo.png" alt="Logo de la Galerie Lisière" width="202" height="202" loading="lazy">
+        <p class="footer-motto">L’art sans frontières.</p>
+      </div>
+      <div class="newsletter">
+        <p class="eyebrow">LA LETTRE DE LA GALERIE</p>
+        <h2>Recevez nos <br class="footer-mobile-break">actualités</h2>
+        <p>Expositions, rencontres et regards d’artistes, directement dans votre boîte mail.</p>
+        <form id="newsletter-form">
+          <label for="nom">Nom et prénom</label><input id="nom" name="nom" type="text" autocomplete="name" required>
+          <label for="email">Votre adresse e-mail — <span>vous@exemple.fr</span></label><input id="email" name="email" type="email" autocomplete="email" required>
+          <label class="consent"><input type="checkbox" name="consentement" required> J’accepte de recevoir les actualités de la Galerie Lisière.</label>
+          <button class="btn newsletter-submit" type="submit">S’inscrire <span aria-hidden="true">→</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <figure class="footer-art"><img src="images/empreinte.jpg" alt="L’empreinte du mouvement, nature morte dessinée en noir et blanc" loading="lazy" width="892" height="1171"><figcaption><span>L’empreinte du mouvement</span><small>Victoria Sauga · 2024</small></figcaption></figure>
+      <div class="footer-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram — opens in a new tab">INSTAGRAM</a><a href="#mentions-legales">MENTIONS LÉGALES</a></div>
+    </div>
+    <div class="wrap footer-bottom" id="mentions-legales"><span>© Galerie Lisière — Projet étudiant fictif. Adresse et coordonnées présentées pour la maquette.</span><a href="#haut">Retour en haut ↑</a></div>
+  </footer>
+</body>
+</html>
